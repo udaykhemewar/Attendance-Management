@@ -126,7 +126,7 @@ int admin::registerStudent()
         }
         if(recordFound == 1)
         {
-    	cout<<"\n Username already Register. Please choose another username ";
+    	cout<<"\n Username already Registered. Please choose another username ";
     	getchar(); getchar();
     	read.close();
     	return 0;
@@ -230,7 +230,7 @@ return 0;
 int admin::checkPresenseCountOfStudent()
 {
     string username;
-    cout<<"\n Enter username to check Presense count ";
+    cout<<"\n Enter username to check Presence count ";
     cin>>username;
 
     ifstream fin;
